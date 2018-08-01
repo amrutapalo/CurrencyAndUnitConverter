@@ -81,6 +81,8 @@
 
 void currencyConversion(float amountInRupee)
 {
+    //Assuming the User has to convert from Indian Currency
+    
     int choice;
     printf("Enter the currency you want it to convert to? \n 1.US Dollar 2.British Pound 3.Japanese Yen 4. Euros");
     scanf("%d",&choice);
